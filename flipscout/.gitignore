@@ -1,0 +1,18 @@
+# Secrets: API keys / cookies live in .env and in the SQLite DB (Settings panel)
+.env
+.env.*
+!.env.example
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# Local tooling (contains machine-specific paths)
+.claude/
+
+backend/.venv/
+**/__pycache__/
+.pytest_cache/
+frontend/node_modules/
+frontend/dist/
+*.tsbuildinfo
